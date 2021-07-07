@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="3118d9d6-3fa0-46ff-bde8-1eb70ba6c38d" name="IvanY@CP116 2021-05-17 15:56:48" runUser="TEAM\IvanY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-05-17T15:56:48.7862336+03:00" queuing="2021-05-17T15:56:48.7862348+03:00" start="2021-05-17T15:56:45.7751772+03:00" finish="2021-05-17T15:56:48.8023397+03:00" />
+  <TestSettings name="default" id="9f5e7be5-0a7f-44cb-aecc-255262e76c49">
+    <Deployment runDeploymentRoot="IvanY_CP116_2021-05-17_15_56_48" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1e828b65-e49f-443e-8cf1-725cb8acbf54" testId="2c3a0854-4e79-675c-ccb0-6444089669eb" testName="GetEmployeeTest1" computerName="CP116" duration="00:00:01.3030000" startTime="2021-05-17T15:56:47.3228228+03:00" endTime="2021-05-17T15:56:48.6260790+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e828b65-e49f-443e-8cf1-725cb8acbf54" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="GetEmployeeTest1" storage="c:\users\ivany\work\coe\cources\internal\AutoPractice14base\apitests\bin\debug\netcoreapp2.1\apitests.dll" id="2c3a0854-4e79-675c-ccb0-6444089669eb">
+      <Execution id="1e828b65-e49f-443e-8cf1-725cb8acbf54" />
+      <TestMethod codeBase="c:\Users\IvanY\Work\COE\Cources\Internal\AutoPractice14base\APITests\bin\Debug\netcoreapp2.1\APITests.dll" adapterTypeName="executor://nunit3testexecutor/" className="APITests.ApiTests" name="GetEmployeeTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2c3a0854-4e79-675c-ccb0-6444089669eb" executionId="1e828b65-e49f-443e-8cf1-725cb8acbf54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution started&#xD;
+Running all tests in c:\Users\IvanY\Work\COE\Cources\Internal\AutoPractice14base\APITests\bin\Debug\netcoreapp2.1\APITests.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases&#xD;
+NUnit Adapter 3.17.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
